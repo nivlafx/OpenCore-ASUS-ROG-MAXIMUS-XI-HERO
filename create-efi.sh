@@ -9,7 +9,7 @@ set -euf -o pipefail
 export LC_ALL="en_US.UTF-8"
 
 # Extend PATH to always use Coreutils supplied utilities first.
-export PATH="/usr/local/opt/coreutils/libexec/gnubin:${PATH}"
+export PATH="/opt/local/libexec/gnubin:${PATH}"
 
 # Directories
 readonly BASE_DIR="$(dirname "$(realpath "$0")")"

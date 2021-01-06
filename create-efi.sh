@@ -92,7 +92,7 @@ declare -ar ACPI_SSDT_DOWNLOAD_LIST=(
   "${GH_REPO_CONTENT_BASE_URL}/ACPI/SSDT-PMC.aml"
 )
 # Additional Kexts
-declare -ar EXTRA_KEXTS_DOWNLOAD_LIST=(
+declare -A EXTRA_KEXTS_DOWNLOAD_LIST=(
   [USBMap.kext]="${GH_REPO_CONTENT_BASE_URL}/Kexts/USBMap.kext/Contents/Info.plist"
 )
 # OpenCore configuration

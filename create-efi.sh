@@ -91,10 +91,6 @@ declare -ar ACPI_SSDT_DOWNLOAD_LIST=(
   "${GH_REPO_CONTENT_BASE_URL}/ACPI/SSDT-PLUG.aml"
   "${GH_REPO_CONTENT_BASE_URL}/ACPI/SSDT-PMC.aml"
 )
-# Additional Kexts
-#declare -A arr EXTRA_KEXTS_DOWNLOAD_LIST=(
-#  [USBMap.kext]="${GH_REPO_CONTENT_BASE_URL}/Kexts/USBMap.kext/Contents/Info.plist"
-#)
 # OpenCore configuration
 readonly OC_CONFIG_PLIST="${GH_REPO_CONTENT_BASE_URL}/OC/config.plist"
 

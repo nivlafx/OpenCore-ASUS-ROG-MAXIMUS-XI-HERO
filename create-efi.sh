@@ -93,7 +93,7 @@ declare -ar ACPI_SSDT_DOWNLOAD_LIST=(
 )
 # Additional Kexts
 declare -Ar EXTRA_KEXTS_DOWNLOAD_LIST=(
-  [USBMap_kext]="${GH_REPO_CONTENT_BASE_URL}/Kexts/USBMap.kext/Contents/Info.plist"
+  [USBMap.kextc]="${GH_REPO_CONTENT_BASE_URL}/Kexts/USBMap.kext/Contents/Info.plist"
 )
 # OpenCore configuration
 readonly OC_CONFIG_PLIST="${GH_REPO_CONTENT_BASE_URL}/OC/config.plist"
